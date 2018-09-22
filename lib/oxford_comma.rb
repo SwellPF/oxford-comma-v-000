@@ -6,7 +6,7 @@ def oxford_comma(array)
     phrase = array.join
   elsif num_items == 2
     phrase = "#{array[0]} and #{array[1]}"
-  elsif num_items => 3
+  elsif num_items >= 3
     while index_num < num_items - 1
       phrase << array[index_num] + ", "
     index_num += 1

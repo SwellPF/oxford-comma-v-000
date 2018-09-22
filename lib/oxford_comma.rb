@@ -11,7 +11,7 @@ def oxford_comma(array)
       phrase << array[index_num] + ", "
     index_num += 1
     end
-    phrase = phrase + "and #{array[index_num]"
+    phrase = phrase + ", and #{array[index_num]"
   end
   phrase
 end
